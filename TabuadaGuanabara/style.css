@@ -56,4 +56,6 @@ footer>p {
 select{
   min-width: 200px;
   cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
 }
