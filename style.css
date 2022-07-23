@@ -37,7 +37,7 @@ footer>p {
   color: white;
 }
 
-input{
+input {
   display: block;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -46,12 +46,12 @@ input{
 
 }
 
-#resultado{
-border: 1px solid black;
-overflow-wrap: break-word;
+#resultado {
+  border: 1px solid black;
+  overflow-wrap: break-word;
 }
 
-#btnCalc{
+#btnCalc {
   background-color: red;
   color: white;
   border-radius: 5px;
