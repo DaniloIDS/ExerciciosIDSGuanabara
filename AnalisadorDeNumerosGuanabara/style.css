@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  background-color: rgb(43, 43, 43);
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: white;
+}
+
+section {
+  background-color: white;
+  width: 570px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 1px 1px 1px black;
+}
+
+footer>p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+select{
+  min-width: 200px;
+  margin-top: 15px;
+  padding: 4px;
+  font-size: 16px;
+}
+
+#btnAdd{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  background-color: red;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#num{
+  padding: 10px 0;
+  font-size: 16px;
+  max-width: 100px;
+}
+
+#btnFinalizar{
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#resultado{
+  margin-top: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
